@@ -137,6 +137,13 @@ console.log(calculate ("divide", 10,2));
  * @return {boolean} `a` is larger than `b`
  */
 
+function isGreaterThan (a, b){
+  return a > b;
+}
+
+console.log(isGreaterThan(5,3));
+console.log(isGreaterThan(5,9));
+
 
 /**
  * Returns true if `a` is less than `b`.
