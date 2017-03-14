@@ -69,11 +69,11 @@
  * @return {number} the product
  */
 
- function multiply (x,y){
-  return x * y;
- }
+   function multiply (x,y){
+    return x * y;
+   }
 
- console.log (multiply(2,3));
+   console.log (multiply(2,3));
 
 /**
  * Divides the first number by the second.
@@ -82,11 +82,11 @@
  * @return {number} the quotient
  */
 
- function divide (x,y){
-  return x / y;
- }
+   function divide (x,y){
+    return x / y;
+   }
 
- console.log(divide(24,4));
+   console.log(divide(24,4));
 
 /**
  * Multiplies a number by itself.
@@ -94,11 +94,11 @@
  * @return {number} squared
  */
 
-function square (x){
-  return x * x;
-}
+  function square (x){
+    return x * x;
+  }
 
-console.log (square(5));
+  console.log (square(5));
 
 /**
  * Performs a mathematical operation on two numbers.
@@ -109,6 +109,26 @@ console.log (square(5));
  * @return {number} the result
  */
 
+function calculate(operation, x, y){
+ if (operation === "add") {
+    console.log(x + " + " + y + " = " + (x + y));
+    return x + y;
+  } else if (operation === "subtract") {
+    console.log(x + " - " + y + " = " + (x - y));
+    return x - y;
+  } else if (operation === "multiply") {
+    console.log(x + " * " + y + " = " + (x * y));
+    return x * y;
+  } else if(operation === "divide"){
+    console.log(x + " / " + y + " = " + (x / y));
+    return  x / y;
+  }
+}
+
+console.log(calculate ("add", 1,2));
+console.log(calculate ("subtract", 1,2));
+console.log(calculate ("multiply", 1,2));
+console.log(calculate ("divide", 10,2));
 
 /**
  * Returns true if `a` is greater than `b`.
