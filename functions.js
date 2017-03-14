@@ -3,11 +3,12 @@
  * @param {number} n
  * @return {string} the number as a string
  */
-function numberToString(n){
-  return n.toString();
-}
 
-console.log(numberToString(15));
+  function numberToString(n){
+    return n.toString();
+  }
+
+  console.log(numberToString(15));
 
 
 /**
@@ -16,11 +17,11 @@ console.log(numberToString(15));
  * @return {number}
  */
 
-function increase(n){
-  return n + 1;
-}
+  function increase(n){
+    return n + 1;
+  }
 
-console.log(increase(9));
+  console.log(increase(9));
 
 
 /**
@@ -29,11 +30,11 @@ console.log(increase(9));
  * @return {number}
  */
 
-function decrease (n){
-  return n - 1;
-}
+  function decrease (n){
+    return n - 1;
+  }
 
-console.log (decrease(9));
+  console.log (decrease(9));
 
 /**
  * Adds two numbers.
@@ -41,6 +42,13 @@ console.log (decrease(9));
  * @param {number} y
  * @return {number} the sum
  */
+
+  function add(x,y){
+    return x + y;
+  }
+
+  console.log(add(5,9));
+
 
 
 /**
