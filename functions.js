@@ -94,6 +94,11 @@
  * @return {number} squared
  */
 
+function square (x){
+  return x * x;
+}
+
+console.log (square(5));
 
 /**
  * Performs a mathematical operation on two numbers.
