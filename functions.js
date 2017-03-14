@@ -272,6 +272,26 @@ console.log(letterGrade(20,30));
  */
 
 
+function incrementReviews(res){
+  if (res.reviews === 0){
+    return 1;
+  } else if (res.reviews >= 1){
+    return res.reviews + 1;
+  }
+}
+
+var zaratez = {
+  review: 0
+};
+
+var cocina = {
+  review: 2
+};
+
+console.log(incrementReviews(zaratez));
+console.log(incrementReviews(cocina));
+
+
 /**
  * Joins two strings with a space.
  * @param {string} word1
@@ -279,7 +299,12 @@ console.log(letterGrade(20,30));
  * @return {string} joined the words joined with a space
  */
 
+function combine (word1, word2){
+  return word1 + " " + word2;
+}
 
+console.log("yes,", "please.");
+console.log("BYE,","Felicia!");
 /**
  * Returns a circle object with the properties `circumference` and `area`.
  * Use Math.PI for the value π.
