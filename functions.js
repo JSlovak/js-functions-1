@@ -49,8 +49,6 @@
 
   console.log(add(5,9));
 
-
-
 /**
  * Subtracts the second number from the first.
  * @param {number} x
@@ -58,7 +56,11 @@
  * @return {number} the difference
  */
 
+function subtract (x,y){
+  return x - y;
+}
 
+console.log (subtract(14, 7));
 /**
  * Multiplies two numbers.
  * @param {number} x
