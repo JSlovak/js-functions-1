@@ -17,8 +17,11 @@ console.log(numberToString(15));
  */
 
 function increase(n){
-  n++;
+  return n + 1;
 }
+
+console.log(increase(9));
+
 
 /**
  * Subtracts one from a given number.
@@ -26,6 +29,11 @@ function increase(n){
  * @return {number}
  */
 
+function decrease (n){
+  return n - 1;
+}
+
+console.log (decrease(9));
 
 /**
  * Adds two numbers.
