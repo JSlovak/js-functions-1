@@ -247,6 +247,21 @@ console.log(isOdd(10));
  * @return {string} the score represented as a letter grade
  */
 
+function letterGrade(score, total){
+  var testScore = score / total;
+  if (testScore >= 0.9){
+    return "A";
+  } else if (testScore >= 0.8){
+    return "B";
+  } else if (testScore >= 0.7){
+    return "C";
+  } else if (testScore >= 0.6){
+    return "D";
+  } else return "F";
+}
+
+console.log(letterGrade(30,30));
+console.log(letterGrade(20,30));
 
 /**
  * Checks if a `restaurant` object has a `reviews` property.
