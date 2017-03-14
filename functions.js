@@ -56,11 +56,12 @@
  * @return {number} the difference
  */
 
-function subtract (x,y){
-  return x - y;
-}
+  function subtract (x,y){
+    return x - y;
+  }
 
-console.log (subtract(14, 7));
+  console.log (subtract(14, 7));
+
 /**
  * Multiplies two numbers.
  * @param {number} x
@@ -68,6 +69,11 @@ console.log (subtract(14, 7));
  * @return {number} the product
  */
 
+ function multiply (x,y){
+  return x * y;
+ }
+
+ console.log (multiply(2,3));
 
 /**
  * Divides the first number by the second.
