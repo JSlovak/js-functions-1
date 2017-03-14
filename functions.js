@@ -3,6 +3,11 @@
  * @param {number} n
  * @return {string} the number as a string
  */
+function numberToString(n){
+  return n.toString();
+}
+
+console.log(numberToString(15));
 
 
 /**
@@ -11,6 +16,9 @@
  * @return {number}
  */
 
+function increase(n){
+  n++;
+}
 
 /**
  * Subtracts one from a given number.
