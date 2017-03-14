@@ -82,6 +82,11 @@
  * @return {number} the quotient
  */
 
+ function divide (x,y){
+  return x / y;
+ }
+
+ console.log(divide(24,4));
 
 /**
  * Multiplies a number by itself.
