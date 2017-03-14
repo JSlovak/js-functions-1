@@ -166,6 +166,12 @@ console.log(isLessThan(5, 3));
  * @return {boolean} the numbers are equal
  */
 
+function areEqual(a, b){
+  return a === b;
+}
+
+console.log(areEqual(5, "5"));
+console.log(areEqual(5, 5));
 
 /**
  * Returns the smallest value of two numbers.
