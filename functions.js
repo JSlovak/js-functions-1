@@ -228,6 +228,12 @@ console.log(isEven(11));
  * @return {boolean} the number is odd
  */
 
+function isOdd(n){
+  return n % 2 === 1 || -1;
+}
+
+console.log(isOdd(11));
+console.log(isOdd(10));
 
 /**
  * Returns a letter grade.
