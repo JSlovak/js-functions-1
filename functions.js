@@ -305,6 +305,7 @@ function combine (word1, word2){
 
 console.log("yes,", "please.");
 console.log("BYE,","Felicia!");
+
 /**
  * Returns a circle object with the properties `circumference` and `area`.
  * Use Math.PI for the value π.
@@ -312,4 +313,14 @@ console.log("BYE,","Felicia!");
  * @param {number} radius
  * @return {object} circle
  */
+
+function createCircle(radius){
+  var circle = {};
+  circle.circumference = 2 * radius * Math.PI;
+  circle.area = (radius * radius) * Math.PI;
+  return circle;
+}
+
+console.log(createCircle(3));
+console.log(createCircle(9));
 
