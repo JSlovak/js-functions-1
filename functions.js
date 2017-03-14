@@ -191,8 +191,6 @@ console.log(areEqual(5, 5));
  console.log(minimum(4,9));
  console.log(minimum(14,9));
 
-
-
 /**
  * Returns the largest value of two numbers.
  * @param {number} x
@@ -200,6 +198,16 @@ console.log(areEqual(5, 5));
  * @return {number} the largest number
  */
 
+function maximum(x,y){
+  if (x > y){
+    return x;
+  } else {
+    return y;
+  }
+ }
+
+console.log(maximum(14,9));
+console.log(maximum(4,9));
 
 /**
  * Returns true if `n` is even.
