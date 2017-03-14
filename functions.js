@@ -215,6 +215,12 @@ console.log(maximum(4,9));
  * @return {boolean} the number is even
  */
 
+function isEven(n){
+  return n % 2 === 0;
+}
+
+console.log(isEven(10));
+console.log(isEven(11));
 
 /**
  * Returns true if `n` is odd.
