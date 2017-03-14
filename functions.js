@@ -180,6 +180,18 @@ console.log(areEqual(5, 5));
  * @return {number} the smallest number
  */
 
+ function minimum(x, y){
+  if (x < y){
+    return x;
+  } else {
+    return y;
+  }
+ }
+
+ console.log(minimum(4,9));
+ console.log(minimum(14,9));
+
+
 
 /**
  * Returns the largest value of two numbers.
